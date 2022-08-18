@@ -10,26 +10,29 @@
 </head>
 <body>
   <div>
-    <nav class="bg-custom px-2 sm:px-4 py-2 dark:bg-gray-900 w-4/5 z-20 top-0 left-0 mx-auto mt-4 rounded-3xl shadow-lg">
-        <div class="container flex flex-wrap justify-start items-center mx-auto">
-        <a href="#" class="flex items-center">
+    <nav class="bg-custom px-2 sm:px-4 py-2 dark:bg-gray-900 w-11/12 sm:w-4/5 z-20 top-0 left-0 mx-auto mt-4 rounded-3xl shadow-lg">
+        <div class="container flex flex-wrap justify-center items-center mx-auto">
 
-            <div class=""><img src="assets/logo.png" class="mr-3 h-6 sm:h-9" alt="Logo"></div>
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
-        </a>
         <div class="flex md:order-2">
-            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
-              <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-          </button>
+              <div class=""><img src="assets/logo.png" class="h-8 py-0.5 px-1 border-y-2 rounded-md sm:h-9" alt="Logo"></div>
+
+           <!--    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+          --> </button>
         </div>
-        <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1 pl-5" id="navbar-sticky">
-          <ul class="flex flex-col p-2 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <div class="hidden justify-center items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col p-2 mt-2 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <a href="index.html" class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:textslate-50  md:p-0 dark:text-white" aria-current="page">Home</a>
+              <a href="index.html" class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:textslate-50  md:p-0 dark:text-white text-center" aria-current="page">Home</a>
             </li>
+            <a href="#" class="md:flex items-center hidden">
+
+              <div class=""><img src="assets/logo.png" class="mr-3 h-6 sm:h-9" alt="Logo"></div>
+              <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
+          </a>
             <li>
-              <a href="test.html" class="transition ease-in-out block py-2 pr-4 pl-3 text-gray-500 hover:text-gray-300 rounded  md:hover:bg-transparent  md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+              <a href="test.html" class="transition ease-in-out block py-2 pr-4 pl-3 text-gray-500 hover:text-gray-300 rounded  md:hover:bg-transparent  md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-center">About</a>
             </li>
           </ul>
         </div>
@@ -37,12 +40,12 @@
       </nav>
     </div>
 
-      <section class="container m-auto z-1 font-['Roboto']">
-        <div class="grid lg:grid-rows-3 lg:grid-flow-col gap-4 px-8 mt-9 columns-3xs h-64">
-          <div class="lg:row-span-3 w-9/10 border-4 rounded-2xl border-l-8 p-3 flex items-center"><p class="text-gray-200 font-regular text-4xl"><span class="font-bold text-5xl text-white">CurlyDev</span> - это кучка придурков, которые воплощают хуйню в реальность.</p></div>
-          <div class="lg:col-span-2 flex row-auto items-center border-4 rounded-2xl border-r-8"><img src="/assets/1.jpg" class="h-16 lg:h-full rounded-l-xl border-r-4 mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col">Dexter Landry<p class="font-normal text-xl text-left text-gray-300">Web-Dev</p> </span></div>
-          <div class="lg:row-span-1 lg:col-span-2 flex row-auto items-center border-4 rounded-2xl border-r-8"><img src="/assets/1.jpg" class="h-16 lg:h-full rounded-l-xl border-r-4 mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col">Gelshteyn<p class="font-normal text-xl text-left text-gray-300">Designer</p> </span></div>
-          <div class="lg:row-span-1 lg:col-span-2 flex row-auto items-center border-4 rounded-2xl border-r-8"><img src="/assets/1.jpg" class="h-16 lg:h-full rounded-l-xl border-r-4 mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col">WayPlay<p class="font-normal text-xl text-left text-gray-300">MC-Dev</p> </span></div>
+      <section class="container m-auto z-1 lg:px-32 font-['Roboto']">
+        <div class="grid lg:grid-rows-3 lg:grid-flow-col gap-4 gap-x-12 px-8 mt-9 columns-3xs h-64">
+          <div class="lg:row-span-3 w-9/10 rounded-2xl p-3 flex items-center bg-card drop-shadow-md"><p class="text-gray-200 font-regular text-2xl lg:text-3xl xl:text-4xl test"><span class="font-bold text-3xl xl:text-5xl text-white">CurlyDev</span> - это кучка придурков, которые воплощают хуйню в реальность.</p></div>
+          <div class="lg:col-span-2 flex row-auto items-center rounded-2xl bg-card drop-shadow-md"><img src="/assets/1.jpg" class="h-16 lg:h-full rounded-l-xl mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col">Dexter Landry<p class="font-normal text-xl text-left text-gray-300">Web-Dev</p> </span></div>
+          <div class="lg:row-span-1 lg:col-span-2 flex row-auto items-center rounded-2xl bg-card drop-shadow-md"><img src="/assets/1.jpg" class="h-16 lg:h-full rounded-l-xl mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col">Gelshteyn<p class="font-normal text-xl text-left text-gray-300">Designer</p> </span></div>
+          <div class="lg:row-span-1 lg:col-span-2 flex row-auto items-center rounded-2xl bg-card drop-shadow-md"><img src="/assets/1.jpg" class="h-16 lg:h-full rounded-l-xl mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col">WayPlay<p class="font-normal text-xl text-left text-gray-300">MC-Dev</p> </span></div>
       </section>
 </body>
 </html>

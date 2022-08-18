@@ -1,0 +1,27 @@
+{
+  "name": "curly-blank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./css/in.css -o ./css/out.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DexterLandry15/curly-blank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DexterLandry15/curly-blank/issues"
+  },
+  "homepage": "https://github.com/DexterLandry15/curly-blank#readme",
+  "dependencies": {
+    "flowbite": "^1.5.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.4"
+  }
+}

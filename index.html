@@ -40,28 +40,73 @@
       </nav>
     </div>
 
-      <section class="container m-auto z-1 lg:px-32 font-['Podkova']">
+      <section class="container m-auto z-1 lg:px-32 font-['Podkova'] h-full">
         <div class="grid lg:grid-rows-3 lg:grid-flow-col gap-4 gap-x-12 px-8 mt-9 columns-3xs h-64">
           <div class="lg:row-span-3 w-full rounded-2xl p-3 flex items-center bg-card drop-shadow-md"><p class="text-gray-200 font-regular text-2xl lg:text-3xl 2xl:text-4xl test"><span class="font-bold text-3xl 2xl:text-5xl text-white">CurlyDev</span> - это кучка придурков, которые воплощают хуйню в реальность.</p></div>
-          <div class="lg:col-span-2 flex row-auto items-center rounded-2xl bg-card drop-shadow-md"><img src="./assets/1.jpg" class=" h-16 lg:h-full rounded-l-xl mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col w-full">Dexter Landry<p class="font-normal text-xl text-left text-gray-300">Web-Dev</p> </span> <div class="test flex h-full flex-row-reverse w-full">
+          <div class="lg:col-span-2 flex row-auto items-center rounded-2xl bg-card drop-shadow-md"><img src="./assets/1.jpg" class=" h-16 lg:h-full rounded-l-xl mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col w-full">Dexter Landry<p class="font-normal text-xl text-left text-gray-300">Web-Dev</p> </span>
+
+            <div class="flex lg:hidden h-full flex-row-reverse">
+
+              <button id="dropdownLeftButton" data-dropdown-toggle="dropdownLeft1" data-dropdown-placement="left" class=" text-white bg-custom focus:outline-none font-medium rounded-2xl text-sm px-4 py-2.5 text-center inline-flex items-center " type="button"><svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+              </button>
+              <div id="dropdownLeft1" class="hidden z-10 bg-custom rounded-2xl shadow dark:bg-gray-700">
+                <div class="lg:hidden flex h-full flex-row-reverse">
+                  <div class=" h-16 lg:h-full relative w-16 bg-custom flex rounded-r-xl justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/github.svg" alt=""></div>
+                  <div class=" h-16 lg:h-full relative w-16 bg-custom flex rounded-r-xl justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/Steam_white.svg" alt=""></div>
+                  <div class=" h-16 lg:h-full relative w-16 bg-custom flex rounded-r-xl justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/telegramm.svg" alt=""></div>
+                    <div class=" h-16 lg:h-full relative rounded-l-xl w-16 bg-custom flex justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/discord.svg" alt=""></div>
+
+                </div>
+            </div>
+            </div>
+
+            <div class="hidden test lg:flex h-full flex-row-reverse w-full">
+
+
             <div class=" link h-16 lg:h-full relative w-16 bg-custom flex rounded-r-xl justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/github.svg" alt=""></div>
-              <div class=" link relative h-16 lg:h-full left-[3.33rem] w-16 bg-custom flex justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/discord.svg" alt=""></div>
+              <div class=" link relative h-16 lg:h-full left-[3.33rem] w-16 bg-custom flex justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/Steam_white.svg" alt=""></div>
               <div class=" link relative h-16 lg:h-full left-[6.66rem] w-16 bg-custom flex justify-center items-center"><img class=" w-3/4 h-3/4 " src="./assets/ico/telegramm.svg" alt=""></div>
-              <div class="link h-16 lg:h-full relative rounded-l-xl w-16 left-[9.99rem] bg-custom flex justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/Steam_white.svg" alt=""></div>
+              <div class="link h-16 lg:h-full relative rounded-l-xl w-16 left-[9.99rem] bg-custom flex justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/discord.svg" alt=""></div>
 
           </div></div>
-          <div class="lg:row-span-1 lg:col-span-2 flex row-auto items-center rounded-2xl bg-card drop-shadow-md"><img src="./assets/1.jpg" class="h-16 lg:h-full rounded-l-xl mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col w-1/5">Gelshteyn<p class="font-normal text-xl text-left text-gray-300">Designer</p> </span><div class="test flex w-full h-full flex-row-reverse">
-            <div class="link h-16 lg:h-full relative rounded-r-xl w-16  bg-custom"></div>
-            <div class="link h-16 lg:h-full relative left-12 w-16  bg-custom"></div>
-              <div class="link relative h-16 lg:h-full left-24  w-16 bg-custom"></div>
-              <div class="link relative h-16 lg:h-full left-36 rounded-l-xl  w-16 bg-custom"></div>
+          <div class="lg:row-span-1 lg:col-span-2 flex row-auto items-center rounded-2xl bg-card drop-shadow-md"><img src="./assets/1.jpg" class="h-16 lg:h-full rounded-l-xl mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col w-1/5">Gelshteyn<p class="font-normal text-xl text-left text-gray-300">Designer</p> </span>
+
+            <div class="flex lg:hidden h-full flex-row-reverse w-full">
+
+              <button id="dropdownLeftButton" data-dropdown-toggle="dropdownLeft2" data-dropdown-placement="left" class=" text-white bg-custom focus:outline-none font-medium rounded-2xl text-sm px-4 py-2.5 text-center inline-flex items-center " type="button"><svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+              </button>
+              <div id="dropdownLeft2" class="hidden z-10 bg-custom rounded-2xl shadow dark:bg-gray-700">
+                <div class="lg:hidden flex h-full flex-row-reverse">
+                  <div class=" h-16 lg:h-full relative w-16 bg-custom flex rounded-r-xl justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/telegramm.svg" alt=""></div>
+                    <div class=" h-16 lg:h-full relative rounded-l-xl w-16 bg-custom flex justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/discord.svg" alt=""></div>
+
+                </div>
+            </div>
+            </div>
+
+
+            <div class="test hidden lg:flex h-full flex-row-reverse w-full">
+            <div class=" link h-16 lg:h-full relative w-16 bg-custom flex rounded-r-xl justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/telegramm.svg" alt=""></div>
+              <div class="link h-16 lg:h-full relative rounded-l-xl w-16 left-[3.33rem] bg-custom flex justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/discord.svg" alt=""></div>
 
           </div></div>
-          <div class="lg:row-span-1 lg:col-span-2 flex row-auto items-center rounded-2xl bg-card drop-shadow-md"><img src="./assets/1.jpg" class="h-16 lg:h-full rounded-l-xl mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col w-1/5">WayPlay<p class="font-normal text-xl text-left text-gray-300">MC-Dev</p> </span><div class="test flex w-full h-full flex-row-reverse">
-            <div class="link h-16 lg:h-full relative rounded-r-xl w-16  bg-custom"></div>
-            <div class="link h-16 lg:h-full relative left-12 w-16  bg-custom"></div>
-              <div class="link relative h-16 lg:h-full left-24  w-16 bg-custom"></div>
-              <div class="link relative h-16 lg:h-full left-36 rounded-l-xl  w-16 bg-custom"></div>
+          <div class="lg:row-span-1 lg:col-span-2 flex row-auto items-center rounded-2xl bg-card drop-shadow-md"><img src="./assets/1.jpg" class="h-16 lg:h-full rounded-l-xl mr-5" alt="dex"><span class="font-bold text-2xl text-white flex-col w-1/5">WayPlay<p class="font-normal text-xl text-left text-gray-300">MC-Dev</p> </span>
+
+            <div class="flex lg:hidden h-full flex-row-reverse w-full">
+
+            <button id="dropdownLeftButton" data-dropdown-toggle="dropdownLeft" data-dropdown-placement="left" class=" text-white bg-custom focus:outline-none font-medium rounded-2xl text-sm px-4 py-2.5 text-center inline-flex items-center " type="button"><svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+            </button>
+            <div id="dropdownLeft" class="hidden z-10 bg-custom rounded-2xl shadow dark:bg-gray-700">
+              <div class="lg:hidden flex h-full flex-row-reverse">
+                <div class=" h-16 lg:h-full relative w-16 bg-custom flex rounded-r-xl justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/telegramm.svg" alt=""></div>
+                  <div class=" h-16 lg:h-full relative rounded-l-xl w-16 bg-custom flex justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/discord.svg" alt=""></div>
+
+              </div>
+          </div>
+          </div>
+            <div class="test hidden lg:flex h-full flex-row-reverse w-full">
+            <div class=" link h-16 lg:h-full relative w-16 bg-custom flex rounded-r-xl justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/telegramm.svg" alt=""></div>
+              <div class="link h-16 lg:h-full relative rounded-l-xl w-16 left-[3.33rem] bg-custom flex justify-center items-center"><img class=" w-3/4 h-3/4" src="./assets/ico/discord.svg" alt=""></div>
 
           </div></div>
       </section>

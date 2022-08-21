@@ -7,3 +7,16 @@ body {
     background-color: #44336d;
 
 }
+
+
+.test:hover .link {
+    left:0px;
+}
+
+.test:hover .none {
+    display: none;
+}
+
+.link {
+    transition: left .2s ease;
+}

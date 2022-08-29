@@ -12,6 +12,11 @@ body {
 
 .test:hover .link {
     left:0px;
+    right:0px;
+}
+
+.test:hover .round {
+    border-radius: 0%;
 }
 
 .test:hover .none {

@@ -1,4 +1,4 @@
-let streamers_arr = ["dexter_landry", "k0kashechka", "aikasan_", "AkiSanMoon"]
+let streamers_arr = ["KoksyaChan", "k0kashechka", "aikasan_", "AkiSanMoon"]
 let info_arr = []
 async function stream() {
 let i;

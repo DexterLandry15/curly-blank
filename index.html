@@ -9,9 +9,12 @@
     <meta content='yes' name='apple-mobile-web-app-capable'/>
     <title>cdev</title>
     <!-- <link href="https://allfont.ru/allfont.css?fonts=podkova" rel="stylesheet" type="text/css" /> -->
-    <script src="./js/flowbite/flowbite.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <script src="./js/dep/flowbite/flowbite.js"></script>
     <link rel="stylesheet" href="css/out.css">
+    <script src="./js/dep/jquery.js"></script>
     <script src="./js/discord.js"></script>
+    <script src="./js/stream_info.js"></script>
 </head>
 <body>
   <div>
@@ -53,32 +56,65 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 w-full">
+      <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 mb-12 w-full">
 
-        <div class="transition ease-in-out w-full h-40 bg-card rounded-2xl drop-shadow-md hover:drop-shadow-xl">
+        <div class="transition ease-in-out w-full h-32 bg-card rounded-2xl drop-shadow-md hover:drop-shadow-xl">
           <div class="flex">
-            <img src="./assets/streamers/kokos.jpg" alt="kokos" class=" aspect-square h-40 rounded-l-2xl">
-            <div class="flex-col m-3"> <span class="text-white font-bold text-3xl">KoksyaChan</span>
-              <p class="text-xl text-gray-400 font-semibold mb-3">Глава КГБ</p>
+            <img src="./assets/streamers/kokos.jpg" alt="kokos" class=" aspect-square h-32 rounded-l-2xl">
+            <div class="flex-col m-3"> <span class="text-white font-bold text-3xl flex-row flex">KoksyaChan</span>
+              <p class="text-xl text-gray-400 font-semibold mb-2 stream-info w-full h-6 dexter_landry">wait...</p>
               <div class="flex flex-row">
-                <img src="./assets/ico/twitch.svg" alt="" class="h-12 mr-2">
-                <img src="./assets/ico/telegramm.svg" alt="" class="h-12 mr-2">
-                <img src="./assets/ico/discord.svg" alt="" class="h-12">
-
+                <a href="https://twitch.tv/KoksyaChan"> <img src="./assets/ico/twitch.svg" alt="" class="h-10 mr-2"></a>
               </div>
             </div>
           </div>
         </div>
 
 
-        <div class="transition ease-in-out w-full h-40 bg-card rounded-2xl drop-shadow-md hover:drop-shadow-xl">
-          <div class="flex"><img src="./assets/streamers/kokash.png" alt="kokash" class=" aspect-square h-40 rounded-l-2xl">
+        <div class="transition ease-in-out w-full h-32 bg-card rounded-2xl drop-shadow-md hover:drop-shadow-xl">
+          <div class="flex"><img src="./assets/streamers/kokash.png" alt="kokash" class=" aspect-square h-32 rounded-l-2xl">
             <div class="flex-col m-3"> <span class="text-white font-bold text-3xl">k0kashechka</span>
-              <p class="text-xl text-gray-400 font-semibold">Не глава КГБ</p>
+              <p class="text-xl text-gray-400 font-semibold mb-2 stream-info w-full h-6 k0kashechka">wait...</p>
               <div class="flex flex-row">
-                <img src="./assets/ico/twitch.svg" alt="" class="h-12">
+                <a href="https://twitch.tv/k0kashechka"><img src="./assets/ico/twitch.svg" alt="" class="h-10"></a>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-8 w-full">
+
+          <div class="transition ease-in-out w-full h-32 bg-card rounded-2xl drop-shadow-md hover:drop-shadow-xl">
+            <div class="flex"><img src="./assets/streamers/mika.jpg" alt="mikamore" class=" aspect-square h-32 rounded-l-2xl">
+              <div class="flex-col m-3"> <span class="text-white font-bold text-3xl">mikamore_</span>
+                <p class="text-xl text-gray-400 font-semibold mb-2 stream-info w-full h-6">wait...</p>
+                <div class="flex flex-row">
+                  <img src="./assets/ico/trovo.svg" alt="" class="h-10">
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="transition ease-in-out w-full h-32 bg-card rounded-2xl drop-shadow-md hover:drop-shadow-xl">
+            <div class="flex"><img src="./assets/streamers/aika.png" alt="aika" class=" aspect-square h-32 rounded-l-2xl bg-custom">
+              <div class="flex-col m-3"> <span class="text-white font-bold text-3xl">aikasan_</span>
+                <p class="text-xl text-gray-400 font-semibold mb-2 stream-info w-full h-6 aikasan_">wait...</p>
+                <div class="flex flex-row">
+                  <a href="https://twitch.tv/aikasan_"><img src="./assets/ico/twitch.svg" alt="" class="h-10"></a>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="transition ease-in-out w-full h-32 bg-card rounded-2xl drop-shadow-md hover:drop-shadow-xl">
+            <div class="flex"><img src="./assets/streamers/aki.jpg" alt="aki" class=" aspect-square h-32 rounded-l-2xl">
+              <div class="flex-col m-3"> <span class="text-white font-bold text-3xl">AkiSanMoon</span>
+                <p class="text-xl text-gray-400 font-semibold mb-2 stream-info w-full h-6 AkiSanMoon">wait...</p>
+                <div class="flex flex-row">
+                  <a href="https://twitch.tv/AkiSanMoon"><img src="./assets/ico/twitch.svg" alt="" class="h-10"></a>
+                </div>
+              </div>
           </div>
         </div>
 

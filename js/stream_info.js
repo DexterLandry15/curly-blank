@@ -4,7 +4,7 @@ async function stream() {
 let i;
 
     for (i = 0; i < streamers_arr.length; i++) {
-    $.get({url: `http://api.curly.team:8000/twitch/?user=${streamers_arr[i]}`, async: false, success: function(result){
+    $.get({url: `https://api.curly.team/twitch/?user=${streamers_arr[i]}`, async: false, success: function(result){
     let data;
     if (result.length > 0) {
         data = `Live | ${result[0].title}`

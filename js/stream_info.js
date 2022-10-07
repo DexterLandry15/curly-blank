@@ -1,5 +1,5 @@
 let streamers_arr = ["KoksyaChan", "k0kashechka", "aikasan_", "nodarbatman"]
-
+$( document ).ready(function() {
 $(async function(){
     for (let i = 0; i < streamers_arr.length; i++) {
     $.get({url: `https://api.curly.team/twitch/?user=${streamers_arr[i]}`, async: false, success: function(result){
@@ -24,4 +24,5 @@ $(async function(){
         }
         $(`.mikamore_`).text(data)
     }})
+});
 });

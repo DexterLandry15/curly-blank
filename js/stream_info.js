@@ -15,7 +15,6 @@ $(async function(){
 });
 
 $(async function(){
-
     $.get({url: `https://api.curly.team/trovo/?user=mikamore_`, async: false, success: function(result){
         let data;
         if (result.is_live === true) {

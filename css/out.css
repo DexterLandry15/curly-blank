@@ -1204,12 +1204,8 @@ input:checked + .toggle-bg {
   margin-bottom: 2rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mr-2 {
@@ -1220,8 +1216,8 @@ input:checked + .toggle-bg {
   margin-right: auto;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .block {
@@ -1875,6 +1871,16 @@ input:checked + .toggle-bg {
 
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+@font-face {
+  font-family: 'Podkova';
+
+  src: url('../assets/fonts/Podkova-VariableFont_wght.ttf');
+
+  font-weight: normal;
+
+  font-style: normal;
 }
 
 body {

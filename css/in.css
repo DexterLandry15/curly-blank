@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'Podkova';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Podkova'),
-        url('../assets/fonts/Podkova-VariableFont_wght.ttf') format('truetype');
-}
 body {
     margin: 0;
     background-color: #44336d;

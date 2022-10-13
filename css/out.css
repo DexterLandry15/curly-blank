@@ -1873,17 +1873,6 @@ input:checked + .toggle-bg {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
-@font-face {
-  font-family: 'Podkova';
-
-  font-style: normal;
-
-  font-weight: normal;
-
-  src: local('Podkova'),
-        url('../assets/fonts/Podkova-VariableFont_wght.ttf') format('truetype');
-}
-
 body {
   margin: 0;
   background-color: #44336d;

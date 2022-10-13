@@ -1876,11 +1876,12 @@ input:checked + .toggle-bg {
 @font-face {
   font-family: 'Podkova';
 
-  src: url('../assets/fonts/Podkova-VariableFont_wght.ttf');
+  font-style: normal;
 
   font-weight: normal;
 
-  font-style: normal;
+  src: local('Podkova'),
+        url('../assets/fonts/Podkova-VariableFont_wght.ttf') format('truetype');
 }
 
 body {

@@ -6,6 +6,13 @@ module.exports = {
     ],
   theme: {
     extend: {
+      backgroundImage: {
+        'nodar': "url('/assets/streamers/nodar.png')",
+        'kokash': "url('/assets/streamers/kokash.png')",
+        'kokos': "url('/assets/streamers/kokos.jpg')",
+        'mika': "url('/assets/streamers/mika.jpg')",
+        'aika': "url('/assets/streamers/aika.png')"
+      },
       spacing: {
         '18': '4.5rem',
       },

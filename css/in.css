@@ -43,3 +43,24 @@ body {
                 line-clamp: 1;
         -webkit-box-orient: vertical;
 }
+
+
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #7b7b7b71 #44444400;
+  }
+
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #89898987;
+    border:none;
+  }

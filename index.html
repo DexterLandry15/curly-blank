@@ -12,7 +12,9 @@
     <script src="./js/dep/flowbite/flowbite.js"></script>
     <link rel="stylesheet" href="css/out.css">
     <script src="./js/dep/jquery.js"></script>
+    <script src="./js/mc.js"></script>
     <script src="./js/stream_info.js"></script>
+    <script src="./js/copy.js"></script>
 <!-- <script src="./js/dev.js"></script> -->
 </head>
 <body>
@@ -47,50 +49,100 @@
       </nav>
     </div>
 
+    <section class="container m-auto lg:px-32 font-['Podkova'] mt-8 flex justify-center flex-col mb-6">
+      <div class="w-10/12 xl:w-11/12 mb-8 flex flex-col xl:flex-row justify-around items-center mx-auto h-[50rem] xl:h-[25rem] gap-y-4">
 
-    <section class="container m-auto font-['Podkova'] mt-8 flex justify-center flex-col">
+        <div class="flex flex-row relative overflow-hidden bg-card w-full xl:w-2/5 rounded-2xl drop-shadow-lg shadow-inner h-full ">
+          <div class="absolute z-10 w-full h-full flex items-center flex-col">
+          <img src="./assets/server/logo.png" alt="" class="w-3/4 mt-3 m-1">
+          <span class=" text-gray-200 z-10 mt-3 font-bold text-xl drop-shadow-sm text-center">Сейчас на сервере <span class="player-counter">0/0</span></span>
+          <div class="h-full bg-players-list w-11/12 mt-2 mb-5 overflow-auto overflow-x-hidden rounded-lg players-list">
+            <div class="bg-player m-2 overflow-auto rounded-md text-gray-300 text-2xl flex items-center justify-center hidden">заглушка</div>
+          </div>
+          </div>
+          <div class="w-full h-full bg-curlyvanilla bg-cover blur-sm brightness-[0.4]"></div>
+        </div>
+        <div class="flex flex-col w-full xl:w-1/2 h-full justify-between">
+          <div class="flex w-full h-1/5 bg-card rounded-2xl drop-shadow-lg"><span class="flex items-center justify-center w-full text-center text-4xl text-gray-300 font-bold">НАСРАЛИ И ЗАЛИЛИ НА ХОСТ</span></div>
+          <div class="flex w-full h-1/2 bg-card rounded-2xl drop-shadow-lg"><span class="flex items-center justify-center w-full text-center text-2xl text-gray-300 font-bold">ДА БЛЯТЬ Я БЛЯТЬ ОБОСРАЛСЯ БЛЯТЬ Я ПЕРДАНУЛ БЛЯТЬ Я ОБОСРАЛ СВОИ ЭТИ ЩОРТЫ НАХУЙ И ПРИШЛОСЬ МНЕ ОТ ГОВНА ИХ НЕМНОЖКО ОТТЕРЕТЬ БЛЯТЬ И БРОСИТЬ В СТИРКУ</span></div>
+          <a href="#" class="w-full h-1/5 copy-btn"><div class="flex h-full bg-card rounded-2xl drop-shadow-lg hover:drop-shadow-2xl transition ease-out"><span class="flex items-center justify-center w-full text-center text-5xl text-gray-300 font-bold ip">IP: MC.CURLY.TEAM</span></div></a>
+        </div>
+
+      </div>
+
+    </section>
+    <section class="container m-auto font-['Podkova'] mt-8 flex justify-center flex-col mb-10">
       <div class="w-10/12 h-12 mb-8 flex justify-center mx-auto">
         <div class="bg-card rounded-2xl w-full h-full flex justify-center drop-shadow-lg">
           <span class="text-gray-300 font-bold text-2xl w-full h-full text-center py-2">Отряд КГБ</span>
         </div>
       </div>
 
-      <div class="flex flex-col gap-y-3 xl:flex-row justify-between items-center">
+      <div class="flex flex-col gap-y-3 xl:flex-row justify-around items-center w-full">
 
+    <div class="flex flex-row lg:flex-col gap-5">
       <a href="https://twitch.tv/aikasan_">
-        <div class="aikasan_ w-60 h-72 hover:scale-105 rounded-3xl bg-card flex flex-col justify-center items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
+        <div class="aikasan_ w-56 h-56 hover:scale-105 rounded-3xl bg-card flex flex-col justify-center items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
           <div class="aikasan_-live hidden absolute z-20 top-[-1.1rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-2xl font-bold drop-shadow-md">live</span></div>
           <div class="w-full h-3/5 overflow-hidden relative flex justify-center items-center rounded-t-3xl">
-            <img src="./assets/streamers/aika.png" alt="" class="w-2/4  absolute z-10 rounded-lg">
-            <div class="bg-custom w-full h-full bg-aika bg-cover rounded-t-3xl blur-md"></div>
+            <img src="./assets/streamers/aikasan_.png" alt="" class="w-2/4  absolute z-10 rounded-lg">
+            <div class="bg-custom w-full h-full bg-aikasan_ bg-cover rounded-t-3xl blur-md"></div>
           </div>
           <div class="h-1 w-full bg-white"></div>
-          <div class="mt-4 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">aikasan_</span></div>
+          <div class="mt-2 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">aikasan_</span></div>
           <div class="m-auto"><span class="text-gray-300 text-2xl font-normal">Втубер</span></div>
         </div>
       </a>
 
-      <a href="https://trovo.live/s/mikamore_">
-        <div class="mikamore_ w-64 h-80 hover:scale-105 rounded-3xl bg-card flex flex-col justify-between items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
-          <div class="mikamore_-live hidden absolute z-20 top-[-1.1rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-2xl font-bold drop-shadow-md">live</span></div>
+      <a href="https://twitch.tv/akiafk">
+        <div class="akiafk w-56 h-56 hover:scale-105 rounded-3xl bg-card flex flex-col justify-between items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
+          <div class="akiafk-live hidden absolute z-20 top-[-1.1rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-2xl font-bold drop-shadow-md">live</span></div>
           <div class="w-full h-3/5 overflow-hidden relative flex justify-center items-center rounded-t-3xl">
-            <img src="./assets/streamers/mika.jpg" alt="" class="w-2/4  absolute z-10 rounded-lg">
-            <div class="bg-custom w-full h-full bg-mika bg-cover rounded-t-3xl blur-md"></div>
+            <img src="./assets/streamers/akiafk.png" alt="" class="w-2/4  absolute z-10 rounded-lg">
+            <div class="bg-custom w-full h-full bg-akiafk bg-cover rounded-t-3xl blur-md"></div>
           </div>
           <div class="h-1 w-full bg-white"></div>
-          <div class="mt-4 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">mikamore_</span></div>
-          <div class="m-auto"><span class="text-gray-300 text-2xl font-normal">Не Глава КГБ</span></div>
+          <div class="mt-2 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">akiafk</span></div>
+          <div class="m-auto"><span class="text-gray-300 text-2xl font-normal">Не придумал ещё</span></div>
+        </div>
+      </a>
+    </div>
+
+    <div class="flex flex-row lg:flex-col gap-5">
+      <a href="https://twitch.tv/k0kashechka">
+        <div class="k0kashechka w-60 h-64 hover:scale-105 rounded-3xl bg-card flex flex-col justify-center items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
+          <div class="k0kashechka-live hidden absolute z-20 top-[-1.1rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-2xl font-bold drop-shadow-md">live</span></div>
+          <div class="w-full h-3/5 overflow-hidden relative flex justify-center items-center rounded-t-3xl">
+            <img src="./assets/streamers/k0kashechka.png" alt="" class="w-2/4  absolute z-10 rounded-lg">
+            <div class="bg-custom w-full h-full bg-k0kashechka bg-cover rounded-t-3xl blur-md"></div>
+          </div>
+          <div class="h-1 w-full bg-white"></div>
+          <div class="mt-2 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">k0kashechka</span></div>
+          <div class="m-auto"><span class="text-gray-300 text-2xl font-normal">Повелитель каках</span></div>
         </div>
       </a>
 
+      <a href="https://twitch.tv/unoteka">
+        <div class="unoteka w-60 h-64 hover:scale-105 rounded-3xl bg-card flex flex-col justify-between items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
+          <div class="unoteka-live hidden absolute z-20 top-[-1.1rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-2xl font-bold drop-shadow-md">live</span></div>
+          <div class="w-full h-3/5 overflow-hidden relative flex justify-center items-center rounded-t-3xl">
+            <img src="./assets/streamers/unoteka.png" alt="" class="w-2/4  absolute z-10 rounded-lg">
+            <div class="bg-custom w-full h-full bg-unoteka bg-cover rounded-t-3xl blur-md"></div>
+          </div>
+          <div class="h-1 w-full bg-white"></div>
+          <div class="mt-2 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">unoteka</span></div>
+          <div class="m-auto"><span class="text-gray-300 text-2xl font-normal">Ипотека</span></div>
+        </div>
+      </a>
+    </div>
 
 
       <a href="https://twitch.tv/KoksyaChan">
         <div class="KoksyaChan w-72 h-96 hover:scale-105 rounded-3xl bg-card flex flex-col items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
           <div class="KoksyaChan-live hidden absolute z-20 top-[-1.2rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-3xl font-bold drop-shadow-md">live</span></div>
           <div class="w-full h-3/5 overflow-hidden relative flex justify-center items-center rounded-t-3xl">
-            <img src="./assets/streamers/kokos.jpg" alt="" class="w-2/4  absolute z-10 rounded-lg">
-            <div class="bg-custom w-full h-full bg-kokos bg-cover rounded-t-3xl blur-md"></div>
+            <img src="./assets/streamers/KoksyaChan.jpg" alt="" class="w-2/4  absolute z-10 rounded-lg">
+            <div class="bg-custom w-full h-full bg-KoksyaChan bg-cover rounded-t-3xl blur-md"></div>
           </div>
           <div class="h-1 w-full bg-white"></div>
           <div class="mt-4 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">Koksyachan</span></div>
@@ -100,31 +152,62 @@
 
 
 
-      <a href="https://twitch.tv/k0kashechka">
-        <div class="k0kashechka w-64 h-80 hover:scale-105 rounded-3xl bg-card flex flex-col items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
-          <div class="k0kashechka-live hidden absolute z-20 top-[-1.1rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-2xl font-bold drop-shadow-md">live</span></div>
-          <div class="w-full h-3/5 overflow-hidden relative flex justify-center items-center rounded-t-3xl">
-            <img src="./assets/streamers/kokash.png" alt="" class="w-2/4  absolute z-10 rounded-lg">
-            <div class="bg-custom w-full h-full bg-kokash bg-cover rounded-t-3xl blur-md"></div>
-          </div>
-          <div class="h-1 w-full bg-white"></div>
-          <div class="mt-4 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">k0kashechka</span></div>
-          <div class="m-auto"><span class="text-gray-300 text-2xl font-normal">Тоже Глава КГБ</span></div>
-        </div>
-      </a>
 
+      <div class="flex flex-row lg:flex-col gap-5">
+        <a href="https://twitch.tv/mikamore_">
+          <div class="mikamore_ w-60 h-64 hover:scale-105 rounded-3xl bg-card flex flex-col justify-center items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
+            <div class="mikamore_-live hidden absolute z-20 top-[-1.1rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-2xl font-bold drop-shadow-md">live</span></div>
+            <div class="w-full h-3/5 overflow-hidden relative flex justify-center items-center rounded-t-3xl">
+              <img src="./assets/streamers/mikamore_.jpg" alt="" class="w-2/4  absolute z-10 rounded-lg">
+              <div class="bg-custom w-full h-full bg-mikamore_ bg-cover rounded-t-3xl blur-md"></div>
+            </div>
+            <div class="h-1 w-full bg-white"></div>
+            <div class="mt-2 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">mikamore_</span></div>
+            <div class="m-auto"><span class="text-gray-300 text-2xl font-normal">Травяной</span></div>
+          </div>
+        </a>
+
+        <a href="https://trovo.live/s/aaannnw_192">
+          <div class="aaannnw_192 w-60 h-64 hover:scale-105 rounded-3xl bg-card flex flex-col justify-between items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
+            <div class="aaannnw_192-live hidden absolute z-20 top-[-1.1rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-2xl font-bold drop-shadow-md">live</span></div>
+            <div class="w-full h-3/5 overflow-hidden relative flex justify-center items-center rounded-t-3xl">
+              <img src="./assets/streamers/aaannnw_192.png" alt="" class="w-2/4  absolute z-10 rounded-lg">
+              <div class="bg-custom w-full h-full bg-aaannnw_192 bg-cover rounded-t-3xl blur-md"></div>
+            </div>
+            <div class="h-1 w-full bg-white"></div>
+            <div class="mt-2 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">aaannnw_192</span></div>
+            <div class="m-auto"><span class="text-gray-300 text-2xl font-normal">Щрек 2</span></div>
+          </div>
+        </a>
+      </div>
+
+    <div class="flex flex-row lg:flex-col gap-5">
       <a href="https://twitch.tv/nodarbatman">
-        <div class="nodarbatman w-60 h-72 hover:scale-105 rounded-3xl bg-card flex flex-col items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
+        <div class="nodarbatman w-56 h-56 hover:scale-105 rounded-3xl bg-card flex flex-col justify-center items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
           <div class="nodarbatman-live hidden absolute z-20 top-[-1.1rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-2xl font-bold drop-shadow-md">live</span></div>
           <div class="w-full h-3/5 overflow-hidden relative flex justify-center items-center rounded-t-3xl">
-            <img src="./assets/streamers/nodar.png" alt="" class="w-2/4  absolute z-10 rounded-lg">
-            <div class="bg-custom w-full h-full bg-nodar bg-cover rounded-t-3xl blur-md"></div>
+            <img src="./assets/streamers/nodarbatman.png" alt="" class="w-2/4  absolute z-10 rounded-lg">
+            <div class="bg-custom w-full h-full bg-nodarbatman bg-cover rounded-t-3xl blur-md"></div>
           </div>
           <div class="h-1 w-full bg-white"></div>
-          <div class="mt-4 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">nodarbatman</span></div>
+          <div class="mt-2 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">nodarbatman</span></div>
           <div class="m-auto"><span class="text-gray-300 text-2xl font-normal">Ебёт овец</span></div>
         </div>
       </a>
+
+      <a href="https://twitch.tv/ex1zon">
+        <div class="ex1zon w-56 h-56 hover:scale-105 rounded-3xl bg-card flex flex-col justify-between items-center drop-shadow-lg hover:drop-shadow-2xl transition ease-out brightness-[0.4] animate-pulse">
+          <div class="ex1zon-live hidden absolute z-20 top-[-1.1rem] flex flex-row items-center"><div class="h-2 w-2 rounded-full bg-red-600 mr-1"><div class="h-2 w-2 rounded-full bg-red-600 mr-1 animate-ping"></div></div><span class="text-red-600 text-2xl font-bold drop-shadow-md">live</span></div>
+          <div class="w-full h-3/5 overflow-hidden relative flex justify-center items-center rounded-t-3xl">
+            <img src="./assets/streamers/ex1zon.png" alt="" class="w-2/4  absolute z-10 rounded-lg">
+            <div class="bg-custom w-full h-full bg-ex1zon bg-cover rounded-t-3xl blur-md"></div>
+          </div>
+          <div class="h-1 w-full bg-white"></div>
+          <div class="mt-2 rounded-full bg-custom w-fit h-fit mx-auto p-1 px-2"><span class="text-gray-300 text-2xl font-bold">ex1zon</span></div>
+          <div class="m-auto"><span class="text-gray-300 text-2xl font-normal">pro csgo</span></div>
+        </div>
+      </a>
+    </div>
 
       </div>
     </section>
